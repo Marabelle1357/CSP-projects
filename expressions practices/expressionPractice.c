@@ -16,26 +16,36 @@ int main(void){
 
     int svnthEquation = (int) ((3*(5*5))/15)-(5-(2*2));
 
-    int egthEquation = (int) (((1*1*1*1)*(2*2))+(3*3))-((2*2*2*2*2)/4);
+    int A = pow(1, 4), B  =pow(2, 2), C = pow(3, 3), D = pow(2, 5);
 
-    int nthEquation = (int) (1-1);
+    int egthEquation = (int) (A*B+C-D/4);
 
-    printf("%d", frstEquation);
+    int E = (int) (22/2-2*5);
+    
+    int F = pow(E, 2);
+    
+    int G = (int) (4-6/6);
+    
+    int H = pow(G, 2);
 
-    printf("%d", scndEquation);
+    int nthEquation = (int) (F+H);
 
-    printf("%d", thrdEquation);
+    printf("\n%d", frstEquation);
 
-    printf("%d", frthEquation);
+    printf("\n%d", scndEquation);
 
-    printf("%d", fthEquation);
+    printf("\n%d", thrdEquation);
 
-    printf("%d", sxthEquation);
+    printf("\n%d", frthEquation);
 
-    printf("%d", svnthEquation);
+    printf("\n%d", fthEquation);
 
-    printf("%d", egthEquation);
+    printf("\n%d", sxthEquation);
 
-    printf("%d", nthEquation);
+    printf("\n%d", svnthEquation);
+
+    printf("\n%d", egthEquation);
+
+    printf("\n%d", nthEquation);
         return 0;
 }
