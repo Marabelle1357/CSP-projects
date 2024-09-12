@@ -10,7 +10,7 @@ int main(void){
 
     int frthEquation = (int) (17-6/2+4*3);
 
-    int fthEquation = (int) (-2*1*-2*4+2*-2/-2*2+6+2-3);
+    int fthEquation = (int) (-2*(1*4-2/2)+(6+2-3));
     
     int sxthEquation = (int) ((-1)*((3-(4*7))/5))-((2*24)/6);
 
