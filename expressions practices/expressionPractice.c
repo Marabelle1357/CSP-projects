@@ -20,15 +20,11 @@ int main(void){
 
     int egthEquation = (int) (A*B+C-D/4);
 
-    int E = (int) (22/2-2*5);
-    
-    int F = pow(E, 2);
-    
-    int G = (int) (4-6/6);
-    
-    int H = pow(G, 2);
+    int E = pow ((22/2-2*5), 2);
 
-    int nthEquation = (int) (F+H);
+    int F = pow((4-6/6), 2);
+
+    int ninthEquation = (int) (E+F);
 
     printf("\n%d", frstEquation);
 
@@ -46,6 +42,7 @@ int main(void){
 
     printf("\n%d", egthEquation);
 
-    printf("\n%d", nthEquation);
+    printf("\n%d", ninthEquation);
+
         return 0;
 }
