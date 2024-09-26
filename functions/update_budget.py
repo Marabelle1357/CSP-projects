@@ -1,15 +1,15 @@
 
-
+def inp(type):
+    input("How much is your "+type+"?\n")
+    return f"How much is your "+type+"?\n"
 
 def percent(type, amount):
     per = amount/income*100
-    print("Your")
+    print("Your"+type+"is"+per+"% of your income.\n")
 
 print("This code will calculate your bugdet for the month.")
-income = input("How much do you make in a month?\n")
-Iincome = int(income)
-rent = input("How much do you pay rent in a month?\n")
-Irent = int(rent)
+income = inp("income")
+rent = inp("rent")
 utilities = input("How much do you pay in utilities in a month?\n")
 Iutil = int(utilities)
 groceries = input("How much do you pay in groceries in a month?\n")
